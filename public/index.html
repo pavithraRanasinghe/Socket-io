@@ -5,6 +5,20 @@
     <title>SocketIO</title>
 </head>
 <body>
-<h1>Setup SocketIO app</h1>
+
+<h1>Setup SocketIO APP</h1>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    var socket = io();
+
+    socket.on('connect',()=>{
+       console.log("Connect to server") ;
+    });
+
+    socket.on('disconnect',()=>{
+        console.log("Disconnected from server");
+    });
+</script>
 </body>
 </html>

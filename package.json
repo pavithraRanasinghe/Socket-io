@@ -8,11 +8,12 @@
     "start": "node server/server.js"
   },
   "engines": {
-    "node":"6.13.4"
+    "node": "6.13.4"
   },
-  "author": "",
+  "author": "Pavithra",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
   }
 }
