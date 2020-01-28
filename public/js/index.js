@@ -12,6 +12,16 @@ socket.on('newMessage',(message)=>{
     $('#messages').append(li);
 });
 
+socket.on('newLocationMessage',(message)=>{
+    var li = $('<li></li>');
+    var a = $('<a target="_blank">My current location</a>')
+
+    li.text(`${message.from}:`);
+    a.attr('href',message.url);
+    li.append(a);
+    $('#messages').append(li);
+});
+
 socket.on('disconnect',()=>{
     console.log("Disconnected from server");
 });
@@ -24,5 +34,22 @@ $('#message-form').on('submit', function (e) {
         text: $('[name=message]').val()
     },function () {
 
+    });
+});
+
+$('#location').on('click',function () {
+    if (!navigator.geolocation){
+        return alert('Geolocation not supported by your browser');
+    }
+
+    navigator.geolocation.getCurrentPosition(function (position) {
+        console.log(position);
+
+        socket.emit('createLocationMessage',{
+            latitude: position.coords.latitude,
+            longitude: position.coords.longitude
+        })
+    },function () {
+        alert("Something wrong")
     });
 });
