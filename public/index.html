@@ -6,9 +6,17 @@
 </head>
 <body>
 
-<h1>Setup SocketIO APP</h1>
+<h1>SocketIO APP</h1>
+
+<ul id="messages"></ul>
+
+<form id="message-form">
+    <input type="text" name="message" placeholder="Type Message...">
+    <button>Send</button>
+</form>
 
 <script src="/socket.io/socket.io.js"></script>
+<script src="/js/lib/jquery-3.4.1.min.js"></script>
 <script src="/js/index.js"></script>
 </body>
 </html>

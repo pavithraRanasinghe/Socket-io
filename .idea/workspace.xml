@@ -41,9 +41,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="E:/CMJD 52/2nd/#WEB/JS/Library/jquery-3.4.1.min.js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.20229885" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Training Session\Test\SocketIO_App\public\js\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Training Session\Test\SocketIO_App\public\js" />
     </key>
@@ -71,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580109762945</updated>
       <workItem from="1580109771873" duration="9978000" />
-      <workItem from="1580182229275" duration="9943000" />
+      <workItem from="1580182229275" duration="13172000" />
     </task>
     <servers />
   </component>
@@ -83,6 +91,14 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2610" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.0.1920.1200@1920.0.1920.1200" timestamp="1580183638414" />
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1580194553905">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580194553905" />
+    <state x="249" y="8" key="SettingsEditor" timestamp="1580194559731">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="8" key="SettingsEditor/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580194559731" />
     <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1580182245387">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -91,9 +107,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580109884903" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580187556524">
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1580193569306">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580187556524" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580193569306" />
   </component>
 </project>

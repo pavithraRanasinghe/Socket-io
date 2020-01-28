@@ -5,7 +5,7 @@ var {generateMessage} = require('./message');
 describe('generateMessage', ()=>{
     it('should generate correct message object',()=>{
         const from = 'Pavithra';
-        const text = 'Some message';
+        const text = 'Test message';
         var message = generateMessage(from,text);
 
         expect(typeof message.createdAt).toBe('number');
