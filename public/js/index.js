@@ -29,27 +29,35 @@ socket.on('disconnect',()=>{
 $('#message-form').on('submit', function (e) {
     e.preventDefault();
 
+    const textBox =$('[name=message]');
+
     socket.emit('createMessage',{
         from: 'User',
-        text: $('[name=message]').val()
+        text: textBox.val()
     },function () {
-
+        return textBox.val('');
     });
 });
 
-$('#location').on('click',function () {
+const locationButton = $('#location');
+
+locationButton.on('click',function () {
     if (!navigator.geolocation){
         return alert('Geolocation not supported by your browser');
     }
 
+    locationButton.attr('disabled','disabled').text('Sending Location...');
+
     navigator.geolocation.getCurrentPosition(function (position) {
         console.log(position);
+        $('#location').removeAttr('disabled').text('Send Location');
 
         socket.emit('createLocationMessage',{
             latitude: position.coords.latitude,
             longitude: position.coords.longitude
         })
     },function () {
+
         alert("Something wrong")
     });
 });

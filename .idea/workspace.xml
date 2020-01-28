@@ -20,6 +20,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,6 +44,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="E:/CMJD 52/2nd/#WEB/JS/Library/jquery-3.4.1.min.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -79,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580109762945</updated>
       <workItem from="1580109771873" duration="9978000" />
-      <workItem from="1580182229275" duration="17572000" />
+      <workItem from="1580182229275" duration="19804000" />
     </task>
     <servers />
   </component>
