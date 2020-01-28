@@ -43,11 +43,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="E:/CMJD 52/2nd/#WEB/JS/Library/jquery-3.4.1.min.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20229885" />
   </component>
   <component name="RecentsManager">
@@ -81,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580109762945</updated>
       <workItem from="1580109771873" duration="9978000" />
-      <workItem from="1580182229275" duration="19804000" />
+      <workItem from="1580182229275" duration="20918000" />
     </task>
     <servers />
   </component>
@@ -93,14 +93,14 @@
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="2610" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864/1920.0.1920.1200@1920.0.1920.1200" timestamp="1580183638414" />
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1580194553905">
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1580206382802">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580194553905" />
-    <state x="249" y="8" key="SettingsEditor" timestamp="1580194559731">
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580206382802" />
+    <state x="249" y="8" key="SettingsEditor" timestamp="1580206383616">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="8" key="SettingsEditor/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580194559731" />
+    <state x="249" y="8" key="SettingsEditor/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580206383616" />
     <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1580182245387">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
