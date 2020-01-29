@@ -16,5 +16,4 @@ var generateLocationMessage = (from,latitude,longitute)=>{
     }
 };
 
-
 module.exports = {generateMessage,generateLocationMessage};
