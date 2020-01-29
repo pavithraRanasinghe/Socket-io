@@ -81,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580109762945</updated>
       <workItem from="1580109771873" duration="9978000" />
-      <workItem from="1580182229275" duration="36912000" />
+      <workItem from="1580182229275" duration="37628000" />
     </task>
     <servers />
   </component>
@@ -113,5 +113,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/1920.0.1920.1200@0.0.1536.864" timestamp="1580193569306" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/js/chat.js</url>
+          <line>59</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
